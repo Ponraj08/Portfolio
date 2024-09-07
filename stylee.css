@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav,ul{
+    display: flex;
+}
+
+nav{
+    justify-content:space-around ;
+    align-items: center;
+    height: 17vh;    
+    margin-right: 20%;
+    margin-left: 30%;
+}
+
+nav,ul{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+ul{
+    padding-left: 200px;
+}
+ a{
+    color: black;
+    text-decoration: none;
+
+    
+}
+a:hover{
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent; 
+    
+}
+
+section{
+    padding-top: 10vh;
+    height: 98vh;
+    margin: 0 5rem;
+
+}
+.section{
+    display: flex;
+
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 70vh;   
+}
+
+.pic{
+    display: flex;
+    height: 450px;
+    width: 50%;
+    margin-bottom: 20%;
+
+}
+.text{
+    align-self: center;
+    text-align: center;
+}
+.text p{
+    font-weight: 600;
+}
+.text__p1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+.text__p2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.name{
+    font-size: 5rem;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.btn_con{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn-color-1{
+    font-weight: 600;
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 2rem;
+    border: rgb(53,53,53)0.1rem solid;
+    background: none;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    transition: transform 0.5s;
+}
+.btn-color-1:hover{
+    cursor: pointer;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    color: white;
+    border: rgb(255,225,225)0.1rem solid;
+    transform: scale(1.1); 
+}
+
+.title{
+    text-align: center;
+    font-size: 3.5rem;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.p3{
+    margin-top: 0.5rem;
+    justify-content: center;
+    text-align: justify;
+    font-size: 1.15rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+
+}
+.abt_det{
+    margin-top: 2.5rem;
+}
+.in{
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+}
+.p4{
+    font-weight: 400;
+    margin: 15px;
+    border-bottom: 1px solid rgb(226, 219, 219);
+
+}
+
+h2{
+    font-weight: 500;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.skil{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.innfoo{
+    margin-top: 2rem;
+}
+h5{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.progress{
+    background-color: gray;
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+.pross-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background:red
+}
+.precentage{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    font-weight: 400;
+}
+.edu{
+    text-align: center;
+    font-size: 3.5rem;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.edu_blk{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-right: 2px;
+}
+.edu_blk div {
+   background-color: white;
+    border-radius: 2rem;
+    border: rgb(53,53,53)0.1rem solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.edu_blk div:hover{
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    color: aliceblue;
+    transform: scale(1.03);  
+    h2{
+        color: rgb(253, 250, 250);
+    }
+    .mrk{
+        font-weight: 600;
+    }
+}
+.pro{
+    text-align: center;
+    font-size: 3.5rem;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.pro_sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 2rem;
+}
+.pro_blk{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);;
+    margin-bottom: 20px;
+    margin-right: 20px;
+     transition: transform 0.5s;
+    
+}
+.pro_blk img{
+    width: 85%;
+    justify-content: space-around;
+    padding-left: 32px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 300;
+    border-radius: 10%;
+   
+
+}
+.layer{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.pro_blk:hover {
+    transform: scale(1.04); 
+    h3{
+        font-weight: 700;
+    } 
+}
+.pro_sec h3{
+    color: rgb(241, 238, 238);
+    font-weight: 500;
+    text-decoration: underline;
+}
+.pro_blk p{
+    color: white;
+}
+.hed{
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.lst{
+    margin-top: 2rem;
+}
+.left{
+    justify-content: center;
+
+}
+
+.left{
+    background:linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-right: 15px;
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-left: 40%;
+}
+.left{
+    justify-content: center;
+    font-size: 80px;
+    margin-left: 37%;
+}
+.icon a{
+    padding-right: 40px;
+}
+.footer,ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-left: 0%;
+    margin-left: 0%;
+}
